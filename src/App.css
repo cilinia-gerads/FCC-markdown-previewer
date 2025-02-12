@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+#editor, #preview {
+  width: 49%;
+  margin: 2px;
+  height: 80vh;
+  padding: 20px;
+  overflow: auto;
+  border-radius: 20px;
+  background-color: #E2E0C8;
+}
+
+#preview {
+  background-color: #818C78;
+  margin-right: 10px;
+}
+
+img {
+  max-width: 100%;
+}
